@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peronal Portfoilo website</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <h1 class="logo"><span>Port</span>folio.</h1>
+            <ul id="sidemenu">
+                <li><a href="#headerr">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#portfolio">My work</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX</p>
+            <h1>Hi, I'm <span>Navya </span><br>From Kadapa, A.P, India</h1>
+            <p>I am a skilled passianate web designer with experience in creating <br>
+                 visually appealing and user-friendly website.</p>
+        </div>
+    </div>
+</div>
+
+<! ----------About---------- ->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/20220617_152235.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Highly motivated computer science engineering student with a strong academic background in programming principles. Possesses excellent communication skills and a practical teamwork approach, eager to take on additional responsibilities to contribute effectively to team goals throughout my career.I contributed to the development of a web application by designing and implementing front-end user interfaces and
+                back-end APIs. I worked with a team to identify and prioritize project requirements, and implemented solutions using languages such as
+                HTML, CSS and JavaScript. I successfully collaborated with the team to deliver a high-quality product,
+                meeting project deadlines and exceeding expectations.</p>
+
+                <div class="tab-titles">
+                    <p onclick="opentab('skills')" class="tab-links active-link">Skills</p>
+                    <p onclick="opentab('experience')" class="tab-links">Experience</p>
+                    <p onclick="opentab('education')" class="tab-links">Education</p> 
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Frontend & Backend</span><br>Html, CSS, Javascript && java, Python, C, Database, SQL,</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>Problem Solving</span><br>Logical thinking</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <p>Worked as a DSA mentor</p>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019</span><br>10th standard from K.G.B.V.School<br>with 9.8 CGPA</li>
+                        <li><span>2021</span><br>Intermediate from Sri Venkateswara Junior College<br>with 93.5%</li>
+                        <li><span>2025</span><br>B.tech from Ravindra College Of Engineering For Women<br>with 8.5 CGPA</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div
+
+<! ----------Services---------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Online Banking System</h2>
+                <p>Developed an online banking system using Java and Object-Oriented Programming concepts, integrated with
+                    MySQL or SQLite.Enabled users to create and manage various types of accounts (e.g., Savings, Checking).</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop"></i>
+                <h2>Library Management</h2>
+                <p>Created a library management system to manage books, patrons and
+                    borrowing records also stored information of books including title,author etc.Execution in NetBeans makes code run and gives the message display of
+                    searched information for user.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store-ios"></i>
+                <h2>Resume Builder</h2>
+                <p>Proficient in using resume builder tools to create visually appealing and ATS-optimized resumes tailored to specific job roles.Skilled in customizing resume templates to effectively highlight professional experience, ensuring clear formatting and keyword optimization for higher job visibility.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <! ----------- portfoilo ----------- -->
+
+<div id="portfoilo">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.webp">
+                <div class="layer">
+                    <h3>Online Banking</h3>
+                    <p>The app is Proficient in using mobile banking apps to execute financial transactions, monitor account balances, and manage payments securely on the go.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you the talented people around the world.Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images\work-3.jpg">
+                <div class="layer">
+                    <h3>Libary Management</h3>
+                    <p>The app is Proficient in using library management apps to track book checkouts, manage digital catalogs, reserve materials, and maintain inventory records efficiently</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<! ------ Contact ----- ->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-tile">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> sn9084395@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i> 7382186529</p>
+                <div class="social-icons">
+                    <a href="http://facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://github.com/SeelamNavya123"><i class="fab fa-github"></i></a>
+                    <a href="[9:01 AM, 11/12/2024] Navya Reddy: 9533518047
+                    [11:35 AM, 11/12/2024] Navya Reddy: https://www.instagram.com/navyareddy5816/profilecard/?igsh=MW1lenBlaHV4NHZ0cg=="><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/seelamnavya/"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images\Resume Navya (2).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="Email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Portfoilo. Made with by Easy Tutorials</p>
+    </div>
+</div>
+<! ------ JavaScript ----- -->
+<script>
+    
+let tablinks = document.getElementsByClassName("tab-links");
+let tabcontents = document.getElementsByClassName("tab-contents");
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link")
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab")
+    }
+    event.currentTarget.classList.add("active-link")
+    document.getElementById(tabname).classList.add("active-tab")
+}
+
+let sidemenu = document.getElementById("sidemenu")
+
+function openmenu(){
+    sidemenu.style.right = "0";
+
+}
+
+function closemenu(){
+    sidemenu.style.right = "-200px";
+
+}
+</script>
+<script>
+const scriptURL = 'https://script.google.com/macros/s/AKfycbyHitA441RFPV-XFZErHDd47ojLMFoEfhktUcES3eR_uLsbMA6u3gW7Nqdmd3ILwWNZ/exec'
+const form = document.forms['submit-to-google-sheet']
+const msg = document.getElementById("msg")
+
+form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response =>{
+        msg.innerHTML = "Message sent Succefully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+    })
+    .catch(error => console.error('Error!', error.message))
+})
+
+</script>
+</body>
+</html>
